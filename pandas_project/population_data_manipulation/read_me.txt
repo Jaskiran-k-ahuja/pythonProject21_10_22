@@ -11,4 +11,25 @@ Pandas Series is a one-dimensional labeled array capable of holding data of any 
   output will be :-
     b    2
     c    3
+_________________________________________
+Crucial Data structure in Pandas is DATAFRAMES
+column manipulation
+df["name"]
+#it will give all the names in the data frame
+#if we want to delete a specific column from the data frame
+--del df["name"]
+#if we want to add new column in a data frame
+then use Series data structure and index it as well because
+with indexing it you will get null value stores as your new column
+
+
+df["new_col"]=pd.Series([1,2,3,4,5],index=[the previous index values for example 'p1','p2','p3','p4'])
+
+-------------------------------------------------------------------------------------------------------
+Row Manipulation
+#loc()-if we define the 'label' of the row
+#iloc()-when we use the integer representation (it is faster)
+#at()-specify the row and column index
+#iat()- integer index of row and column(This is the fastest approach)
+
 
