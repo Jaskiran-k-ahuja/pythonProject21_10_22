@@ -27,7 +27,7 @@ df["new_col"]=pd.Series([1,2,3,4,5],index=[the previous index values for example
 
 -------------------------------------------------------------------------------------------------------
 Row Manipulation
-#loc()-if we define the 'label' of the row
+#loc()-if we define the 'label' of the row ie. the index value which we have given
 #iloc()-when we use the integer representation (it is faster)
 #at()-specify the row and column index
 #iat()- integer index of row and column(This is the fastest approach)
