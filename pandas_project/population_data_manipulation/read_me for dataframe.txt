@@ -28,8 +28,15 @@ df["new_col"]=pd.Series([1,2,3,4,5],index=[the previous index values for example
 -------------------------------------------------------------------------------------------------------
 Row Manipulation
 #loc()-if we define the 'label' of the row ie. the index value which we have given
+df.loc["index name"]
+example- df.loc["ben"] // data for ben will be displayed
 #iloc()-when we use the integer representation (it is faster)
+print(df.iloc[1])
 #at()-specify the row and column index
+syntax-print(df.at["index","column"])
+print(df.at['kevin','salary'])
 #iat()- integer index of row and column(This is the fastest approach)
-
+syntax-print(df.at[interger represtation of index,integer representation of column])
+print(df.iat[1,1])
+row manipulation functions--?
 
